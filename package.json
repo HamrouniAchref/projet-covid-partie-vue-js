@@ -1,0 +1,23 @@
+{
+  "name": "frontvuejs",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "vue": "^3.0.5",
+    "vue-doughnut-chart": "^0.3.0",
+    "vue-router": "^4.0.8"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.2",
+    "@vue/compiler-sfc": "^3.0.5",
+    "node-sass": "^6.0.0",
+    "sass": "^1.32.13",
+    "sass-loader": "^11.1.1",
+    "vite": "^2.3.0"
+  }
+}

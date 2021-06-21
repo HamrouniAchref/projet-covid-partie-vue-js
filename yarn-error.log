@@ -1,0 +1,46 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\jhon\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add --dev @vitejs/plugin-vue
+
+PATH: 
+  J:\Program Files\anaconda;J:\Program Files\anaconda\Library\mingw-w64\bin;J:\Program Files\anaconda\Library\usr\bin;J:\Program Files\anaconda\Library\bin;J:\Program Files\anaconda\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\AdoptOpenJDK\jdk-15.0.1.9-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;J:\Program Files\Git\cmd;C:\Program Files\Symfony;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\jhon\AppData\Local\Microsoft\WindowsApps;;C:\Users\jhon\AppData\Local\Programs\Microsoft VS Code\bin;C:\wamp64\bin\php\php7.4.9;C:\Users\jhon\AppData\Local\ComposerSetup\bin;C:\Users\jhon\AppData\Roaming\Composer\vendor\bin;J:\Program Files\Microsoft VS Code\bin;C:\Users\jhon\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\jhon\Documents\code\frontVueJs\node_modules\esbuild\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "frontvuejs",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "serve": "vite preview"
+    },
+    "dependencies": {
+      "vue": "^3.0.5",
+      "vue-doughnut-chart": "^0.3.0",
+      "vue-router": "^4.0.8"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-vue": "^1.2.2",
+      "@vue/compiler-sfc": "^3.0.5",
+      "node-sass": "^6.0.0",
+      "sass-loader": "^11.1.1",
+      "vite": "^2.3.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
